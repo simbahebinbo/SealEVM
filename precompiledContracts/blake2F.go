@@ -19,7 +19,7 @@ package precompiledContracts
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
+	"github.com/simbahebinbo/sealevm/crypto/blake2b"
 )
 
 type blake2F struct{}

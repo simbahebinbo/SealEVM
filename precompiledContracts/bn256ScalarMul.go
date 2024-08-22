@@ -17,8 +17,8 @@
 package precompiledContracts
 
 import (
-	"github.com/ethereum/go-ethereum/crypto/bn256"
 	"github.com/simbahebinbo/sealevm/common"
+	"github.com/simbahebinbo/sealevm/crypto/bn256"
 	"github.com/simbahebinbo/sealevm/params"
 	"math/big"
 )
