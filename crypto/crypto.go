@@ -29,9 +29,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/simbahebinbo/sealevm/common"
 	"github.com/simbahebinbo/sealevm/common/math"
+	"github.com/simbahebinbo/sealevm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 
