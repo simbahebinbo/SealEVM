@@ -16,7 +16,7 @@
 
 package precompiledContracts
 
-import "github.com/ethereum/go-ethereum/params"
+import "github.com/simbahebinbo/sealevm/params"
 
 // data copy implemented as a native contract.
 type dataCopy struct{}

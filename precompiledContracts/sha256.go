@@ -18,7 +18,7 @@ package precompiledContracts
 
 import (
 	"crypto/sha256"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/simbahebinbo/sealevm/params"
 )
 
 // SHA256 implemented as a native contract.

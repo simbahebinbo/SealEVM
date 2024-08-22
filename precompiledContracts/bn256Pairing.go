@@ -18,8 +18,8 @@ package precompiledContracts
 
 import (
 	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/simbahebinbo/sealevm/evmErrors"
+	"github.com/simbahebinbo/sealevm/params"
 )
 
 // bn256PairingIstanbul implements a pairing pre-compile for the bn256 curve

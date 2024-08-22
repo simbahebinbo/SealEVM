@@ -18,8 +18,8 @@ package precompiledContracts
 
 import (
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/simbahebinbo/sealevm/common"
+	"github.com/simbahebinbo/sealevm/params"
 	"math/big"
 )
 

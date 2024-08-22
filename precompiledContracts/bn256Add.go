@@ -18,8 +18,8 @@ package precompiledContracts
 
 import (
 	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/simbahebinbo/sealevm/common"
+	"github.com/simbahebinbo/sealevm/params"
 )
 
 // bn256Add implements a native elliptic curve point addition conforming to
