@@ -4,15 +4,15 @@ SealEVM is an independent EVM implementation that decouples from the storage sys
 
 ---
 
-- [中文](https://github.com/SealSC/SealEVM/blob/master/README_zh.md)
+- [中文](https://github.com/simbahebinbo/SealEVM/blob/master/README_zh.md)
 
 ##
 
 ### Example
 
-In the [example](https://github.com/SealSC/SealEVM/tree/master/example) directory, a simple usage reference example of SealEVM is provided. This example uses memory as external storage and shows simple functions such as contract deployment, invocation, variable reading, etc.
+In the [example](https://github.com/simbahebinbo/SealEVM/tree/master/example) directory, a simple usage reference example of SealEVM is provided. This example uses memory as external storage and shows simple functions such as contract deployment, invocation, variable reading, etc.
 
-**⚠️Note: The codes under [example](https://github.com/SealSC/SealEVM/tree/master/example) directory is only for a simple demonstration of code usage, please do not use it in any actual commercial and production environment**
+**⚠️Note: The codes under [example](https://github.com/simbahebinbo/SealEVM/tree/master/example) directory is only for a simple demonstration of code usage, please do not use it in any actual commercial and production environment**
 
 ##
 

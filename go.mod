@@ -1,4 +1,4 @@
-module github.com/SealSC/SealEVM
+module github.com/simbahebinbo/SealEVM
 
 go 1.21
 

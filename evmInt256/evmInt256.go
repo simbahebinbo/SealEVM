@@ -17,7 +17,7 @@
 package evmInt256
 
 import (
-	"github.com/SealSC/SealEVM/common"
+	"github.com/simbahebinbo/SealEVM/common"
 	"math/big"
 )
 

@@ -17,7 +17,7 @@
 package common
 
 import (
-	"github.com/SealSC/SealEVM/crypto/hashes"
+	"github.com/simbahebinbo/SealEVM/crypto/hashes"
 )
 
 const (

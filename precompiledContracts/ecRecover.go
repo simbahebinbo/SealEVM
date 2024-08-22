@@ -17,9 +17,9 @@
 package precompiledContracts
 
 import (
-	"github.com/SealSC/SealEVM/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
+	"github.com/simbahebinbo/SealEVM/common"
 	"math/big"
 )
 

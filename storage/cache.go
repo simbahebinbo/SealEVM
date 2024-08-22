@@ -17,7 +17,7 @@
 package storage
 
 import (
-	"github.com/SealSC/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
 )
 
 type Cache map[string]*evmInt256.Int

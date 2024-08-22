@@ -2,12 +2,12 @@ package main
 
 import (
 	"errors"
-	"github.com/SealSC/SealEVM/environment"
-	"github.com/SealSC/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/environment"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
 	"time"
 )
 
-//external storage for example
+// external storage for example
 type memStorage struct {
 	storage   map[string][]byte
 	contracts map[string][]byte

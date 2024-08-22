@@ -17,8 +17,8 @@
 package instructions
 
 import (
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/opcodes"
 )
 
 func loadMemory() {

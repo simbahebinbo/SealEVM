@@ -18,8 +18,8 @@ package stack
 
 import (
 	"fmt"
-	"github.com/SealSC/SealEVM/evmErrors"
-	"github.com/SealSC/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/evmErrors"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
 	"strconv"
 	"strings"
 )

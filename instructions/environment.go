@@ -19,11 +19,11 @@ package instructions
 import (
 	"math/big"
 
-	"github.com/SealSC/SealEVM/common"
-	"github.com/SealSC/SealEVM/evmErrors"
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/opcodes"
-	"github.com/SealSC/SealEVM/precompiledContracts"
+	"github.com/simbahebinbo/SealEVM/common"
+	"github.com/simbahebinbo/SealEVM/evmErrors"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/precompiledContracts"
 )
 
 func loadEnvironment() {

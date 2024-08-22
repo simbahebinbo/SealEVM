@@ -16,7 +16,7 @@
 
 package environment
 
-import "github.com/SealSC/SealEVM/evmInt256"
+import "github.com/simbahebinbo/SealEVM/evmInt256"
 
 type Block struct {
 	ChainID     *evmInt256.Int

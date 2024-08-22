@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/SealSC/SealEVM"
-	"github.com/SealSC/SealEVM/crypto/hashes"
-	"github.com/SealSC/SealEVM/environment"
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/storage"
+	"github.com/simbahebinbo/SealEVM"
+	"github.com/simbahebinbo/SealEVM/crypto/hashes"
+	"github.com/simbahebinbo/SealEVM/environment"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/storage"
 	"os"
 	"time"
 )
@@ -22,7 +22,7 @@ func logPrinter(logCache *storage.LogCache) {
 	}
 }
 
-//store result to memStorage
+// store result to memStorage
 func storeResult(result *SealEVM.ExecuteResult, storage *memStorage) {
 	for addr, cache := range result.StorageCache.CachedData {
 		for key, v := range cache {
@@ -31,7 +31,7 @@ func storeResult(result *SealEVM.ExecuteResult, storage *memStorage) {
 	}
 }
 
-//create a new evm
+// create a new evm
 func newEvm(code []byte, callData []byte, caller []byte, ms *memStorage) *SealEVM.EVM {
 	hash := hashes.Keccak256(code)
 	hashInt := evmInt256.New(0)

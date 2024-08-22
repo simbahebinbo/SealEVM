@@ -17,9 +17,9 @@
 package environment
 
 import (
-	"github.com/SealSC/SealEVM/evmErrors"
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/evmErrors"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/opcodes"
 )
 
 type Contract struct {

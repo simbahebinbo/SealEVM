@@ -17,8 +17,8 @@
 package environment
 
 import (
-	"github.com/SealSC/SealEVM/common"
-	"github.com/SealSC/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/common"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
 )
 
 type Transaction struct {

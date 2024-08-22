@@ -17,16 +17,16 @@
 package SealEVM
 
 import (
-	"github.com/SealSC/SealEVM/common"
-	"github.com/SealSC/SealEVM/environment"
-	"github.com/SealSC/SealEVM/evmErrors"
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/instructions"
-	"github.com/SealSC/SealEVM/memory"
-	"github.com/SealSC/SealEVM/opcodes"
-	"github.com/SealSC/SealEVM/precompiledContracts"
-	"github.com/SealSC/SealEVM/stack"
-	"github.com/SealSC/SealEVM/storage"
+	"github.com/simbahebinbo/SealEVM/common"
+	"github.com/simbahebinbo/SealEVM/environment"
+	"github.com/simbahebinbo/SealEVM/evmErrors"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/instructions"
+	"github.com/simbahebinbo/SealEVM/memory"
+	"github.com/simbahebinbo/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/precompiledContracts"
+	"github.com/simbahebinbo/SealEVM/stack"
+	"github.com/simbahebinbo/SealEVM/storage"
 )
 
 type EVMResultCallback func(result ExecuteResult, err error)

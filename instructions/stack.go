@@ -17,9 +17,9 @@
 package instructions
 
 import (
-	"github.com/SealSC/SealEVM/common"
-	"github.com/SealSC/SealEVM/evmInt256"
-	"github.com/SealSC/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/common"
+	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/SealEVM/opcodes"
 )
 
 func loadStack() {
@@ -37,7 +37,7 @@ func loadStack() {
 	setDupActions()
 }
 
-//EIP-3855 (https://eips.ethereum.org/EIPS/eip-3855)
+// EIP-3855 (https://eips.ethereum.org/EIPS/eip-3855)
 func setPush0() {
 	instructionTable[opcodes.PUSH0] = opCodeInstruction{
 		action: func(ctx *instructionsContext) ([]byte, error) {

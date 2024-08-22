@@ -17,8 +17,8 @@
 package instructions
 
 import (
-	"github.com/SealSC/SealEVM/opcodes"
-	"github.com/SealSC/SealEVM/storage"
+	"github.com/simbahebinbo/SealEVM/opcodes"
+	"github.com/simbahebinbo/SealEVM/storage"
 )
 
 func loadStorage() {
