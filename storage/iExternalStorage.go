@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The SealEVM Authors
+ * Copyright 2020 The sealevm Authors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -17,8 +17,8 @@
 package storage
 
 import (
-	"github.com/simbahebinbo/SealEVM/environment"
-	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/sealevm/environment"
+	"github.com/simbahebinbo/sealevm/evmInt256"
 )
 
 type IExternalStorage interface {

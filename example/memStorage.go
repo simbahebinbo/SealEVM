@@ -2,8 +2,8 @@ package main
 
 import (
 	"errors"
-	"github.com/simbahebinbo/SealEVM/environment"
-	"github.com/simbahebinbo/SealEVM/evmInt256"
+	"github.com/simbahebinbo/sealevm/environment"
+	"github.com/simbahebinbo/sealevm/evmInt256"
 	"time"
 )
 

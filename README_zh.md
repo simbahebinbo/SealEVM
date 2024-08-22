@@ -1,16 +1,16 @@
-# SealEVM
+# sealevm
 
-SealEVM是一个独立的EVM实现，它通过接口和缓存方式，实现与存储系统的解耦，可以轻松的移植到任意使用golang实现的区块链系统中，为其增加EVM支持。
+sealevm是一个独立的EVM实现，它通过接口和缓存方式，实现与存储系统的解耦，可以轻松的移植到任意使用golang实现的区块链系统中，为其增加EVM支持。
 
 ---
 
-- [English](https://github.com/simbahebinbo/SealEVM/tree/master#readme)
+- [English](https://github.com/simbahebinbo/sealevm/tree/master#readme)
 
 ##
 
 ### 示例说明
 
-[example](https://github.com/simbahebinbo/SealEVM/tree/master/example)目录下，提供了一个简单的SealEVM的使用参考示例。该示例使用了内存作为外部存储，展示了简单的合约部署、调用、变量读取等功能。
+[example](https://github.com/simbahebinbo/sealevm/tree/master/example)目录下，提供了一个简单的sealevm的使用参考示例。该示例使用了内存作为外部存储，展示了简单的合约部署、调用、变量读取等功能。
 
 **⚠️注意：example目录下的示例仅做代码使用的简单展示，请勿用于任何实际商业和生产环境中**
 
@@ -36,7 +36,7 @@ type EVMParam struct {
 ##
 
 >#### 外部存储接口
-SealEVM将通过该接口，与外部存储进行交互，来实现必要的状态读取、地址创建、新合约存储等功能。
+sealevm将通过该接口，与外部存储进行交互，来实现必要的状态读取、地址创建、新合约存储等功能。
 ```go
 type IExternalStorage interface {
     //从外部存储获取指定地址的账户余额
@@ -80,7 +80,7 @@ type IExternalStorage interface {
 ##
 
 >#### 执行结果
-SealEVM在执行合约时，会将除新合约部署外的，所有有变动的数据，放入缓存中，不会通知给外部存储。
+sealevm在执行合约时，会将除新合约部署外的，所有有变动的数据，放入缓存中，不会通知给外部存储。
 ```go
 type ExecuteResult struct {
     ResultData   []byte //合约执行返回的数据
@@ -112,5 +112,5 @@ type ResultCache struct {
 
 # License
 
-[Apache License 2.0](https://raw.githubusercontent.com/SealSC/SealEVM/master/LICENSE)
+[Apache License 2.0](https://raw.githubusercontent.com/SealSC/sealevm/master/LICENSE)
 

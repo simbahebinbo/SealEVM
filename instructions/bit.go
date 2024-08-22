@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The SealEVM Authors
+ * Copyright 2020 The sealevm Authors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 package instructions
 
 import (
-	"github.com/simbahebinbo/SealEVM/opcodes"
+	"github.com/simbahebinbo/sealevm/opcodes"
 )
 
 func loadBitOperations() {

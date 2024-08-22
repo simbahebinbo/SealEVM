@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/simbahebinbo/SealEVM"
-	"github.com/simbahebinbo/SealEVM/crypto/hashes"
-	"github.com/simbahebinbo/SealEVM/environment"
-	"github.com/simbahebinbo/SealEVM/evmInt256"
-	"github.com/simbahebinbo/SealEVM/storage"
+	 "github.com/simbahebinbo/sealevm"
+	"github.com/simbahebinbo/sealevm/crypto/hashes"
+	"github.com/simbahebinbo/sealevm/environment"
+	"github.com/simbahebinbo/sealevm/evmInt256"
+	"github.com/simbahebinbo/sealevm/storage"
 	"os"
 	"time"
 )
@@ -23,7 +23,7 @@ func logPrinter(logCache *storage.LogCache) {
 }
 
 // store result to memStorage
-func storeResult(result *SealEVM.ExecuteResult, storage *memStorage) {
+func storeResult(result *sealevm.ExecuteResult, storage *memStorage) {
 	for addr, cache := range result.StorageCache.CachedData {
 		for key, v := range cache {
 			storage.storage[addr+key] = v.Bytes()
@@ -32,7 +32,7 @@ func storeResult(result *SealEVM.ExecuteResult, storage *memStorage) {
 }
 
 // create a new evm
-func newEvm(code []byte, callData []byte, caller []byte, ms *memStorage) *SealEVM.EVM {
+func newEvm(code []byte, callData []byte, caller []byte, ms *memStorage) *sealevm.EVM {
 	hash := hashes.Keccak256(code)
 	hashInt := evmInt256.New(0)
 	hashInt.SetBytes(hash)
@@ -48,7 +48,7 @@ func newEvm(code []byte, callData []byte, caller []byte, ms *memStorage) *SealEV
 	var callHash [32]byte
 	copy(callHash[12:], caller)
 	callerInt, _ := evmInt256.HashBytesToEVMInt(callHash)
-	evm := SealEVM.New(SealEVM.EVMParam{
+	evm := sealevm.New(sealevm.EVMParam{
 		MaxStackDepth:  0,
 		ExternalStore:  ms,
 		ResultCallback: nil,
@@ -80,8 +80,8 @@ func newEvm(code []byte, callData []byte, caller []byte, ms *memStorage) *SealEV
 }
 
 func main() {
-	//load SealEVM module
-	SealEVM.Load()
+	//load sealevm module
+	sealevm.Load()
 
 	//create memStorage
 	ms := &memStorage{}

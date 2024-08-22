@@ -1,18 +1,18 @@
-# SealEVM
+# sealevm
 
-SealEVM is an independent EVM implementation that decouples from the storage system through interfaces and caching, and can be easily ported to any blockchain system implemented in golang, adding EVM support for it.
+sealevm is an independent EVM implementation that decouples from the storage system through interfaces and caching, and can be easily ported to any blockchain system implemented in golang, adding EVM support for it.
 
 ---
 
-- [中文](https://github.com/simbahebinbo/SealEVM/blob/master/README_zh.md)
+- [中文](https://github.com/simbahebinbo/sealevm/blob/master/README_zh.md)
 
 ##
 
 ### Example
 
-In the [example](https://github.com/simbahebinbo/SealEVM/tree/master/example) directory, a simple usage reference example of SealEVM is provided. This example uses memory as external storage and shows simple functions such as contract deployment, invocation, variable reading, etc.
+In the [example](https://github.com/simbahebinbo/sealevm/tree/master/example) directory, a simple usage reference example of sealevm is provided. This example uses memory as external storage and shows simple functions such as contract deployment, invocation, variable reading, etc.
 
-**⚠️Note: The codes under [example](https://github.com/simbahebinbo/SealEVM/tree/master/example) directory is only for a simple demonstration of code usage, please do not use it in any actual commercial and production environment**
+**⚠️Note: The codes under [example](https://github.com/simbahebinbo/sealevm/tree/master/example) directory is only for a simple demonstration of code usage, please do not use it in any actual commercial and production environment**
 
 ##
 
@@ -36,7 +36,7 @@ type EVMParam struct {
 ##
 
 >#### External storage interface
-SealEVM will interact with external storage through this interface to implement necessary functions such as state reading, address creation, new contract storage, etc.
+sealevm will interact with external storage through this interface to implement necessary functions such as state reading, address creation, new contract storage, etc.
 ```go
 type IExternalStorage interface {
     //Get the account balance of the specified address from external storage
@@ -80,7 +80,7 @@ type IExternalStorage interface {
 ##
 
 >#### Execution result
-SealEVM will put all data that has changed during contract execution, except for new contract deployment, into cache and will not notify external storage.
+sealevm will put all data that has changed during contract execution, except for new contract deployment, into cache and will not notify external storage.
 ```go
 type ExecuteResult struct {
     ResultData   []byte //Data returned by contract execution
@@ -112,4 +112,4 @@ type ResultCache struct {
 
 # License
 
-[Apache License 2.0](https://raw.githubusercontent.com/SealSC/SealEVM/master/LICENSE)
+[Apache License 2.0](https://raw.githubusercontent.com/SealSC/sealevm/master/LICENSE)

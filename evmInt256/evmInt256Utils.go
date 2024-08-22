@@ -1,6 +1,6 @@
 package evmInt256
 
-import "github.com/simbahebinbo/SealEVM/common"
+import "github.com/simbahebinbo/sealevm/common"
 
 func EVMIntToHashBytes(i *Int) [common.HashLength]byte {
 	iBytes := i.Bytes()

@@ -1,9 +1,9 @@
 package instructions
 
 import (
-	"github.com/simbahebinbo/SealEVM/evmInt256"
-	"github.com/simbahebinbo/SealEVM/opcodes"
-	"github.com/simbahebinbo/SealEVM/storage"
+	"github.com/simbahebinbo/sealevm/evmInt256"
+	"github.com/simbahebinbo/sealevm/opcodes"
+	"github.com/simbahebinbo/sealevm/storage"
 )
 
 func loadDencun() {

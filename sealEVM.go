@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The SealEVM Authors
+ * Copyright 2020 The sealevm Authors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14,19 +14,19 @@
  *  limitations under the License.
  */
 
-package SealEVM
+package sealevm
 
 import (
-	"github.com/simbahebinbo/SealEVM/common"
-	"github.com/simbahebinbo/SealEVM/environment"
-	"github.com/simbahebinbo/SealEVM/evmErrors"
-	"github.com/simbahebinbo/SealEVM/evmInt256"
-	"github.com/simbahebinbo/SealEVM/instructions"
-	"github.com/simbahebinbo/SealEVM/memory"
-	"github.com/simbahebinbo/SealEVM/opcodes"
-	"github.com/simbahebinbo/SealEVM/precompiledContracts"
-	"github.com/simbahebinbo/SealEVM/stack"
-	"github.com/simbahebinbo/SealEVM/storage"
+	"github.com/simbahebinbo/sealevm/common"
+	"github.com/simbahebinbo/sealevm/environment"
+	"github.com/simbahebinbo/sealevm/evmErrors"
+	"github.com/simbahebinbo/sealevm/evmInt256"
+	"github.com/simbahebinbo/sealevm/instructions"
+	"github.com/simbahebinbo/sealevm/memory"
+	"github.com/simbahebinbo/sealevm/opcodes"
+	"github.com/simbahebinbo/sealevm/precompiledContracts"
+	"github.com/simbahebinbo/sealevm/stack"
+	"github.com/simbahebinbo/sealevm/storage"
 )
 
 type EVMResultCallback func(result ExecuteResult, err error)
