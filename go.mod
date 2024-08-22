@@ -3,9 +3,7 @@ module github.com/simbahebinbo/sealevm
 go 1.23
 
 require (
-	github.com/google/gofuzz v1.2.0
 	github.com/holiman/uint256 v1.3.1
-	github.com/jedisct1/go-minisign v0.0.0-20230811132847-661be99b8267
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/crypto v0.26.0
 	golang.org/x/sys v0.24.0
