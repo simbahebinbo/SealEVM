@@ -21,7 +21,6 @@ import (
 )
 
 const (
-	HashLength      = 32
 	MaxClosureDepth = 1024
 )
 

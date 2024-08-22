@@ -24,7 +24,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/simbahebinbo/sealevm/common/math"
 	"github.com/simbahebinbo/sealevm/crypto/secp256k1"
 )
 

@@ -19,7 +19,7 @@ package math
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/simbahebinbo/sealevm/common"
 	"math/big"
 	"testing"
 )

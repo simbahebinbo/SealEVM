@@ -17,7 +17,7 @@
 package precompiledContracts
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/simbahebinbo/sealevm/common"
 	"github.com/simbahebinbo/sealevm/params"
 	"golang.org/x/crypto/ripemd160"
 )

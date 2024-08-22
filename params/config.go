@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/simbahebinbo/sealevm/common"
 	"github.com/simbahebinbo/sealevm/params/forks"
 )
 

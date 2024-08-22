@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/simbahebinbo/sealevm/common"
+	"github.com/simbahebinbo/sealevm/common/hexutil"
+	"github.com/simbahebinbo/sealevm/common/math"
 )
 
 var (
